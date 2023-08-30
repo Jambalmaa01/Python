@@ -1,0 +1,49 @@
+am Search results for x | () Android Studios x | ami Download Andro x | @9 (2)Facebook x | €) BeanGreen247/Ir x | G translate-Goog) X  €) Image-to-text-cc x
+
+€ C  @ github.com/BeanGreen247/Image-to-text-converter/blob/master/imagetotextconversion.py
+
+M Gmail @ Maps @ YouTube & React Icons
+13 lines (11 loc) - 399 Bytes
+
+| Code Blame rw OY Or
+1 from PIL import Image
+2 import pytesseract
+
+4 dire=input("Type full path to image you want to convert to text:
+5 im = Image. open(dire)
+
+6
+
+7 language=input("Type the language of the scanned document (3 letter
+8 text = pytesseract.image_to_string(im, lang=language)
+
+9 filename=input("Type output file name:")
+
+10 file1 = open(filename+"-"+language+".txt","w")
+
+ut file1.write(text)
+
+12 file1.close()
+
+13 print(“Done.
+
+| P Type here to search
+
+€ All Symbols
+
+Image
+
+Definition Precise
+In this file
+1 from PIL import Image
+1 Reference Search
+In this file
+
+5 im = Tmagé. open(dire)
+
+Q Search for this symbol
+
+x 2#O@:
+x
+Av
+
