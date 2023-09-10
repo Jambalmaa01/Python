@@ -6,7 +6,7 @@ const Offers = () => {
         <p className='text-lg font-bold text-gray-700'>lorem pp</p>
         <p className='text-lg font-bold text-gray-700'>lorem pp</p>
         <p className='text-lg font-bold text-gray-700'>lorem pp</p>
-        <p className='text-lg font-bold text-gray-700'>lorem pp</p>
+        <p className='text-lg font-bold text-gray-700'>lorem pp</p> 
     </div>
   )
 }

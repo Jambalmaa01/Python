@@ -24,6 +24,7 @@ const Navbar = () => {
         <Link to='/Travel' className=' font-bold text-3xl p-8'>Travel</Link>
         <Link to='/Rooms' className=' font-bold text-3xl p-8'>Rooms</Link>
         </ul>
+        <h1>Jambalmaa</h1>
     </div>
     </div>
 

@@ -1,0 +1,27 @@
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 450px;
+    height: 350px;
+    border:1px solid rgb(224, 224, 224);
+    z-index: 1;
+    margin-top: 20px;
+    margin-left: -200px;
+   background-color: white;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropbtn {
+    font-size: 0.75rem/* 12px */;
+    line-height: 1rem/* 16px */;
+
+    color: rgb(23 37 84);
+    padding: 28px;
+
+    cursor: pointer;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }  

@@ -6,7 +6,9 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter , Routes, Route} from 'react-router-dom';
 import About from './components/About';
 import Travel from './components/Travel';
-import Rooms from './components/Rooms';
+import Singin from './2023-09-04/Singin';
+import Login from './2023-09-04/Login';
+// import Rooms from './components/Rooms';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -16,7 +18,9 @@ root.render(
   <Route path='/' element={<App/>}/>
   <Route path='/about' element={<About/>}/>
   <Route path='/travel' element={<Travel/>}/>
-  <Route path='/Rooms' element={<Rooms/>}/>
+  {/* <Route path='/Rooms' element={<Rooms/>}/> */}
+ <Route path='/Singin' element={<Singin/>}/>
+  <Route path='/Login' element={<Login/>}/>
 
 </Routes>
     </BrowserRouter>
